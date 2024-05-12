@@ -1,0 +1,226 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: brutalshake 0.5s infinite;
+}
+
+audio {
+  animation: brutalshake 0.5s infinite;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+  animation: shake 0.5s infinite;
+}
+
+footer {
+  animation: amazingshake 0.5s infinite;
+}
+
+p {
+  animation: brutalshake 0.5s infinite;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img:hover {
+  animation: brutalshake 0.5s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+.goyang {
+  animation: brutalshake 0.5s infinite;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.list {
+  float: left;
+}
+
+.list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.list a:hover {
+  background-color: #111;
+}
+
+.rgb {
+  animation-name: colors;
+  animation: colors 0.8s infinite;
+}
+
+@keyframes brutalshake {
+  0% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-2px, -4px) rotate(-2deg);
+  }
+  20% {
+    transform: translate(-6px, 0px) rotate(2deg);
+  }
+  30% {
+    transform: translate(6px, 4px) rotate(0deg);
+  }
+  40% {
+    transform: translate(2px, -2px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-2px, 4px) rotate(-2deg);
+  }
+  60% {
+    transform: translate(-6px, 2px) rotate(0deg);
+  }
+  70% {
+    transform: translate(6px, 2px) rotate(-2deg);
+  }
+  80% {
+    transform: translate(-2px, -2px) rotate(2deg);
+  }
+  90% {
+    transform: translate(2px, 4px) rotate(0deg);
+  }
+  100% {
+    transform: translate(2px, -4px) rotate(-2deg);
+  }
+}
+
+@keyframes amazingshake {
+  0% {
+    transform: translate(4px, 4px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-4px, -8px) rotate(-2deg);
+  }
+  20% {
+    transform: translate(-12px, 0px) rotate(2deg);
+  }
+  30% {
+    transform: translate(12px, 8px) rotate(0deg);
+  }
+  40% {
+    transform: translate(4px, -4px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-4px, 8px) rotate(-2deg);
+  }
+  60% {
+    transform: translate(-12px, 4px) rotate(0deg);
+  }
+  70% {
+    transform: translate(12px, 4px) rotate(-2deg);
+  }
+  80% {
+    transform: translate(-4px, -4px) rotate(2deg);
+  }
+  90% {
+    transform: translate(4px, 8px) rotate(0deg);
+  }
+  100% {
+    transform: translate(4px, -8px) rotate(-2deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes colors {
+  0% {
+    background: #e83838;
+  }
+  10% {
+    background: #ee9938;
+  }
+  20% {
+    background: #e7e139;
+  }
+  30% {
+    background: #64eb3a;
+  }
+  40% {
+    background: #3be858;
+  }
+  50% {
+    background: #38e0e6;
+  }
+  60% {
+    background: #34a7f5;
+  }
+  70% {
+    background: #9b38f1;
+  }
+  80% {
+    background: #e233ee;
+  }
+  90% {
+    background: #ef3aad;
+  }
+  100% {
+    background: #f33d3d;
+  }
+}
